@@ -9,44 +9,45 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="828dp"
-        android:layout_height="486dp"
+        android:layout_width="671dp"
+        android:layout_height="603dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cat5" />
+        app:srcCompat="@drawable/cat7" />
 
     <EditText
-        android:id="@+id/etDescribe"
-        android:layout_width="276dp"
-        android:layout_height="89dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="224dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:id="@+id/etDescription"
+        android:layout_width="456dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="100dp"
         android:ems="10"
-        android:hint="Describe"
+        android:hint="cat"
         android:inputType="textPersonName"
-        android:text="My dog"
+        android:text="Kittens"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="164dp"
-        android:layout_height="0dp"
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="304dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:text="Button"
+        android:hint="Next"
+        android:text="Next"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.962"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etDescribe" />
-
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
